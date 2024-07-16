@@ -1,0 +1,201 @@
+/* Home.module.css */
+
+/* Общие стили */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  background: #f8f8f8;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f8f8;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.header .logo {
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
+  max-height: 50px;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.header nav ul li {
+  display: inline;
+}
+
+.header nav ul li a {
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.header nav ul li a:hover {
+  color: #0070f3;
+}
+
+/* Hero Section */
+.hero {
+  background: #fff;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.hero .btn {
+  padding: 0.75rem 1.5rem;
+  background: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+  background: #005bb5;
+}
+
+/* Features Section */
+.features {
+  background: #f9f9f9;
+  padding: 4rem 0;
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Pricing Section */
+.pricing {
+  background: #fff;
+  padding: 4rem 0;
+}
+
+.pricing h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pricing-options {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.pricing-option {
+  background: #f1f1f1;
+  padding: 2rem;
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-option:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-option h3 {
+  margin-bottom: 1rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background: #f9f9f9;
+  padding: 4rem 0;
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.testimonial {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-style: italic;
+}
+
+.testimonial cite {
+  display: block;
+  margin-top: 1rem;
+  font-style: normal;
+  color: #666;
+}
+
+/* Contact Form */
+.contact {
+  background: #fff;
+  padding: 4rem 0;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  background: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background: #005bb5;
+}
+
+/* Footer */
+.footer {
+  background: #f8f8f8;
+  padding: 1rem 0;
+  text-align: center;
+}
