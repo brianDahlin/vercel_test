@@ -59,17 +59,21 @@
 }
 
 .hero .btn {
-  padding: 0.75rem 1.5rem;
+  display: inline-block;
+  padding: 1rem 2rem;
   background: #0070f3;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 1.2rem;
+  margin-bottom: 1%;
 }
 
 .hero .btn:hover {
   background: #005bb5;
+  transform: translateY(-3px);
 }
 
 /* Features Section */
